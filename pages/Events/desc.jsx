@@ -20,11 +20,11 @@ const Desc = () => {
       {/* rempved it from <p> className="description-container" */}
       <div>
         <p>
-          The IEEE PIE Kerala Section proudly recognizes the outstanding
-          achievements of its members and the exceptional impact of our events.
-          These accomplishments serve as a testament to the dedication of our
-          team and our commitment to fostering technological innovation and
-          entrepreneurship.
+          The IEEE PIE Kerala Section is a hub of brilliant minds and
+          groundbreaking ideas. Our events are a testament to this vibrant
+          spirit, bringing together students, aspiring entrepreneurs, and
+          seasoned professionals to explore the exciting intersection of
+          technology and innovation.
         </p>
       </div>
       {/* <div className="member-container">

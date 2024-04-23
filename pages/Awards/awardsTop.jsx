@@ -38,11 +38,11 @@ const AwardTop = () => {
               : { width: "100%" }
           }
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit
-          est leo, ac vulputate ante dignissim eget. Morbi sed nisi quis nunc
-          pellentesque lobortis vitae id metus. Maecenas blandit libero sit amet
-          sem dictum porttitor. Sed maximus, nisi non accumsan luctus, velit
-          urna varius lacus, vel elementum lectus lorem non.
+          The IEEE PIE Kerala Section proudly recognizes the outstanding
+          achievements of its members and the exceptional impact of our events.
+          These accomplishments serve as a testament to the dedication of our
+          team and our commitment to fostering technological innovation and
+          entrepreneurship.
         </div>
         <img
           src="/images/aboutpic.jpg"
@@ -62,4 +62,3 @@ const AwardTop = () => {
 };
 
 export default AwardTop;
-
