@@ -1,0 +1,57 @@
+.fontOrange{
+    text-align: center;
+    color: #E03703; 
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+.fontWhite{
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+    font-size: 35px; 
+    margin: 0 auto;
+  }
+
+.fontCenter{
+    justify-content: center;
+}
+
+.fontBox{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .fontCenter{
+        padding:  15px;
+        align-items: center;
+        
+    }
+
+    .fontBox{
+        justify-content: center;
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .fontOrange{
+        font-size: large;
+        margin: 0 auto;
+    }
+
+    .fontWhite{
+        font-size: large;
+        margin: 0 auto;
+    }
+
+}

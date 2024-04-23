@@ -1,0 +1,161 @@
+.aboutUs {
+    display: flex; 
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+    padding: 2rem 0; 
+    padding-top: 5x;
+  }
+
+  
+  
+  .imageContainer {
+    margin-left: 10px;
+    margin-right: 10px; 
+    align-items: center; 
+    justify-content: center; 
+    height: auto;
+    display: flex; 
+    position: relative;
+    flex: 1; 
+  }
+
+
+  
+  .centerImage,
+  .leftImage,
+  .rightImage {
+    height: auto;
+    width: 30%; 
+    object-fit: cover; 
+  }
+  
+
+  .centerImage {  
+    top: 0;
+    left: 0;
+    width: 700px;
+    height: auto;
+    z-index: 2;
+    object-fit: cover;
+  }
+
+  .rightImage {
+    transform: rotate(-6deg);
+    position: relative;
+    top: 23px;
+    left: -140px;
+    z-index: 1;
+  }
+
+  .leftImage {
+    position: relative;
+    top: 10px;
+    left: 140px;
+    z-index: 1;
+  }
+
+
+
+  .textContainer {
+    flex: 1; 
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    /* font-size: 2rem;  */
+  }
+  
+  p {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align:  justify; 
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .aboutFont{
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+  }
+
+  /* Media query for smaller screens (adjust breakpoint as needed) */
+  @media only screen and (max-width: 768px) {
+    .aboutUs {
+      flex-direction: column; 
+      align-items: center;
+      padding-top: 5rem;
+    }
+
+    /* var(--font-size-7xl) */
+    .aboutFont{
+      font-size: 30px;
+      padding-bottom: 0px;
+      margin-bottom: auto;
+
+    }
+
+    .textContainer {
+      flex: 1;
+      align-content:center; 
+    }
+  
+    .imageContainer {
+      position: relative;
+      margin: auto;
+      width: 350px;
+      display: flex; /* Arrange images side-by-side */
+      justify-content: space-between;
+      justify-content: center; 
+    }
+  
+    .centerImage,
+    .leftImage,
+    .rightImage {
+      width: 200px; /* Adjust image width for smaller screens */
+    }
+    .centerImage {  
+      top: 0;
+      left: 0;
+      width: 200px;
+      height: auto;
+      /* position: relative; */
+      z-index: 2;
+      object-fit: cover;
+    }
+  
+    .rightImage {
+      transform: rotate(-6deg);
+      position: relative;
+      top: 1px;
+      left: -150px;
+      z-index: 1;
+    }
+  
+    .leftImage {
+      position: relative;
+      top: 1px;
+      left: 150px;
+      z-index: 1;
+    }
+
+    .aboutUsText{
+      max-width: 700px;
+      padding: 5px;
+      text-align: center;
+    }
+
+    p {
+      margin-left: 0px;
+      margin-right: 0px;
+      text-align:  justify; 
+      margin: 2px;
+      font-size: 1rem; 
+      line-height: 1.5;
+      overflow-wrap: break-word;
+    }
+  }
+

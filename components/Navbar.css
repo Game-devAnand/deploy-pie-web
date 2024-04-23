@@ -1,0 +1,153 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #040404;
+  color: #fff;
+  position: relative; /* Ensure the navbar acts as a reference for absolute positioning */
+}
+
+.navbar-logo img {
+  height: 50px;
+  width: auto;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-right: 5px;
+}
+
+.navbar-links li:last-child {
+  margin-right: 0px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 75px;
+}
+
+.navbar-links li a:hover {
+  color: #e53d04;
+}
+
+.navbar-links li a.active {
+  color: orange;
+}
+
+.join-us-button {
+  background-color: #e53d04;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #fff;
+}
+
+.line {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 30px;
+  height: 3px;
+  background-color: #e53d04;
+  border-radius: 10px;
+}
+@media screen and ((min-width:1201px) and (max-width: 1400px)) {
+  .navbar-links li a {
+    padding: 0 20px; 
+  }
+}
+
+@media screen and ((min-width:1201px) and (max-width: 1800px)) {
+  .navbar-links li a {
+    padding: 0 30px; 
+  }
+}
+
+@media screen and ((min-width:1001px) and (max-width: 1200px)) {
+  .navbar-links li a {
+    padding: 0 18px; 
+  }
+}
+@media screen and ((min-width:769px) and (max-width: 1000px)) {
+  .navbar-links li a {
+    padding: 0 15px; 
+  }
+}
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
+
+  .join-us-button {
+    background-color: #e53d04;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px; /* Adjust as needed */
+    align-self: center; /* Centers the button horizontally */
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .line {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 30px;
+    height: 3px;
+    background-color: #e53d04;
+    border-radius: 10px;
+  }
+
+  .navbar-center.active {
+    display: flex;
+    flex-direction: column; /* Adjusts alignment for dropdown */
+    align-items: center; /* Centers items horizontally */
+    position: absolute; /* Position the dropdown */
+    top: 100%; /* Position below the navbar */
+    left: 0; /* Align with the left edge of the navbar */
+    background-color: #040404; /* Background color for the dropdown */
+    padding: 20px; /* Padding for the dropdown */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Shadow for the dropdown */
+    z-index: 999; /* Ensure the dropdown is above other content */
+    width: 100%;
+  }
+
+  .navbar-center {
+    display: none;
+  }
+}

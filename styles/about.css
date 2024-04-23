@@ -1,0 +1,95 @@
+
+.about-container {
+  text-align: center;
+  max-width: auto;
+  /* margin: 10px; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.who-we-section,
+.mission-section,
+.vision-section {
+  margin-bottom: 50px;
+}
+
+.who-we-section h2{
+  padding-right: 130px;
+  padding-bottom: 20px;
+}
+
+.who-we-section{
+  margin-left: 10vw;
+}
+
+.content-container {
+  
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  justify-content: center;
+  /* padding-bottom: 20px; */
+  /* object-fit: cover; */
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 100%; 
+  height: auto;
+}
+
+.description-container {
+  flex: 1;
+  /* padding-top: 80px; */
+}
+
+
+.description-container p {
+  flex: 1;
+  margin-left: 0;
+  padding-left: 1vw;
+}
+
+.member-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.noofm {
+  text-align: center;
+}
+
+
+.orange-text {
+  color: #E03703; 
+  font-size: larger;
+}
+
+.white-text {
+  color: #ffffff; 
+}
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .who-we-section{
+    margin-left: auto;
+  }
+ .who-we-section h2{
+  padding-right: 0px;
+ }
+  .description-container {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+.image-container{
+  padding-bottom: 0px;
+}
+  .image-container img {
+    max-width: 100%;
+  }
+}

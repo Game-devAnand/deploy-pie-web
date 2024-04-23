@@ -1,0 +1,124 @@
+.main {
+  width: 18vw;
+  height: 23vw;
+  border-radius: 15px;
+}
+
+.main:hover {
+  /* border: 1px solid; */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.image {
+  height: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.execomSphere {
+  width: 80%;
+  position: absolute;
+  align-self: flex-end;
+}
+
+.execomPerson {
+  height: 99%;
+  position: absolute;
+  align-self: flex-end;
+  filter: grayscale(100%);
+}
+
+.execomPerson:hover {
+  filter: grayscale(0%);
+}
+
+.textContainer {
+  height: 30%;
+  margin-top: 3%;
+  font-size: 0.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.linkSpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.socialLinks {
+  background-color: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 58vw;
+    height: 63vw;
+    margin: auto;
+    border-radius: 15px;
+  }
+
+  .image {
+    height: 65%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .execomSphere {
+    width: 75%;
+    position: absolute;
+    align-self: flex-end;
+  }
+
+  .execomPerson {
+    height: 100%;
+    position: absolute;
+    align-self: flex-end;
+  }
+
+  .textContainer {
+    height: 30%;
+    margin-top: 3%;
+    font-size: 0.4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 2.5em;
+  }
+
+  .pos {
+    font-weight: 600;
+    font-size: 2em;
+  }
+
+  .linkSpace {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+  }
+
+  .socialLinks {
+    width: 10px;
+    height: auto;
+  }
+
+  .socialLinks img {
+    width: 20px;
+  }
+}

@@ -1,0 +1,21 @@
+.gridIcon{
+  height: auto;
+  width: 80vw;
+  padding-bottom: 5vh;
+}
+
+.heading{
+  font-size: 2em;
+}
+
+.buttons{
+  padding: 5vh;
+  padding-bottom: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons{
+    padding: 2vh;
+    padding-bottom: 5vh;
+  }
+}

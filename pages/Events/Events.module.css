@@ -1,0 +1,11 @@
+.events{
+    width: 50% ;
+    border-radius: "10px";
+}
+
+
+@media screen and (max-width: 768px){
+    .events{
+        width: 90% ;
+    }
+  }

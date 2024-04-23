@@ -1,0 +1,22 @@
+
+=>Draft completed
+
+Home page :
+-animation
+
+
+About page : (Chacko)
+-desktop view - note aligned
+
+Event page : (AKHIL)
+-mobile view - event card not in proper size - make it a componet , refer Home page card size
+-copy (reuse) code of spotify from old web 
+
+Footer : 
+-desktop - ok - rearrange the padding
+-mobile - fix the size of Enter message inputfield and warp of social_logos
+-finilize the links included in Footer
+
+
+=>Pending
+NavBar :

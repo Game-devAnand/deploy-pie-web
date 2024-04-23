@@ -1,0 +1,172 @@
+.image11Icon,
+.image12Icon {
+  position: absolute;
+  top: 9vh;
+  left: 846.2px;
+  width: 488.6px;
+  height: 425.1px;
+  object-fit: contain;
+}
+.image11Icon {
+  top: 9vh;
+  left: 606.6px;
+  width: 503px;
+  height: 403.1px;
+  z-index: 1;
+}
+.image10Icon,
+.image8Icon,
+.image9Icon {
+  position: absolute;
+  top: 0;
+  left: 412.3px;
+  width: 511.7px;
+  height: 325.8px;
+  object-fit: contain;
+  z-index: 2;
+}
+.image8Icon,
+.image9Icon {
+  top: 10vh;
+  left: 202.5px;
+  width: 481.3px;
+  height: 365.8px;
+  z-index: 3;
+}
+.image8Icon {
+  top: 10vh;
+  left: 0;
+  width: 468.6px;
+  height: 368.5px;
+  z-index: 4;
+}
+
+
+.images {
+  position: absolute;
+  top: 0;
+  left: 40.5px;
+  width: 1834.8px;
+  height: 464.2px;
+  opacity: 0.73;
+}
+.group11 {
+  position: absolute;
+  margin-top: 100px;
+  top: 65.9px;
+  left: 0;
+  width: 1920px;
+  height: 945px;
+  object-fit: cover;
+  z-index: 5;
+}
+.imagesParent {
+  margin-top: 10px;
+  height: 710.9px;
+  margin-bottom: 10px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.hero {
+  margin-right: -96.59999999999992px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 0;
+  margin-top: 10px;
+  box-sizing: border-box;
+  /* max-width: 105%; */
+  flex-shrink: 0;
+}
+
+
+/* Hero Section */
+.hero {
+    margin-right: 0; /* Remove fixed margin */
+    width: auto; /* 100% viewport width */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    /* No need for max-width or flex-shrink here */
+  }
+  
+  /* Background Image (group11) */
+  .group11 {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover;
+    z-index: 5;
+  }
+  
+  /* Images Container (images) */
+  .images {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    opacity: 0.73;
+  }
+  
+  /* Individual Images */
+  .image10Icon,
+  .image11Icon,
+  .image12Icon,
+  .image8Icon,
+  .image9Icon {
+    position: absolute;
+    width: 29vw;
+    height: auto; 
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+
+    .hero {
+      margin-right: 0; /* Remove fixed margin */
+      width: auto; /* 100% viewport width */
+    }
+
+    .images{
+      display: none;
+      visibility: hidden;
+    }
+
+    .group11 {
+      position: absolute;
+      top: 0; 
+      left: 0; 
+      width: auto; 
+      max-width: 100vw;
+      height: auto; 
+      object-fit: fill;
+      z-index: 5;
+    }
+
+    .imagesParent {
+      margin-top: 10px;
+      height: 210.9px;
+      margin-bottom: 10px;
+      flex: 1;
+      position: relative;
+      max-width: 100%;
+    }
+
+    .topDiv {
+      max-width: fit-content;
+    }
+
+
+
+  }
+
